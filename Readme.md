@@ -1,7 +1,7 @@
 # Учебный проект «Угадай мелодию» [![Build status][travis-image]][travis-url]
 
 * Студент: [Роман Трухтанов](https://up.htmlacademy.ru/react/4/user/197856).
-* Наставник: `Неизвестно`.
+* Наставник: [Евгений Щеколдин](https://up.htmlacademy.ru/react/4/user/861059).
 
 ---
 
