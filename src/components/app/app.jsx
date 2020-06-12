@@ -1,5 +1,6 @@
-import React, {Component} from 'react';
+import React, {Component} from "react";
 import WelcomeScreen from "../welcome-screen/welcome-screen";
+import PropTypes from "prop-types";
 
 class App extends Component {
   constructor(props) {
@@ -8,7 +9,6 @@ class App extends Component {
   }
 
   render() {
-    // eslint-disable-next-line react/prop-types
     const {errorsAmount} = this.props;
 
     return (
@@ -16,5 +16,9 @@ class App extends Component {
     );
   }
 }
+
+App.propTypes = {
+  errorsAmount: PropTypes.number.isRequired,
+};
 
 export default App;
