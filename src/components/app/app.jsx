@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component} from "react";
 import WelcomeScreen from "../welcome-screen/welcome-screen";
 import PropTypes from "prop-types";
 
