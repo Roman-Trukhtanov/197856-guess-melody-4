@@ -1,3 +1,3 @@
 export const gameSettings = {
-  errorsAmount: 5,
+  errorsAmount: 3,
 };

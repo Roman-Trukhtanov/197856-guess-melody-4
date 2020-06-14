@@ -6,13 +6,16 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.props = props;
+    this.onWelcomeButtonClick = this.onWelcomeButtonClick.bind(this);
   }
+
+  onWelcomeButtonClick() {}
 
   render() {
     const {errorsAmount} = this.props;
 
     return (
-      <WelcomeScreen errorsAmount={errorsAmount}/>
+      <WelcomeScreen errorsAmount={errorsAmount} onWelcomeButtonClick={this.onWelcomeButtonClick}/>
     );
   }
 }
